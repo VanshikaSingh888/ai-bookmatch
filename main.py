@@ -1,7 +1,5 @@
-
-print("===================================")
-print("          AI BOOKMATCH")
-print("===================================")
+print("          AI BOOKMATCH             ")
+print("                           ")
 print("Let's find a book for you!\n")
 
 # Step 1: Ask the user for preferences
@@ -118,9 +116,9 @@ recommendations.sort(key=lambda item: item[0], reverse=True)
 
 # Step 5: Display the top three recommendations
 
-print("\n===================================")
-print("       YOUR BOOKMATCH RESULTS")
-print("===================================")
+print("\n")
+print("       YOUR BOOKMATCH RESULTS        ")
+print("\n")
 
 if len(recommendations) == 0:
     print("No matching books found.")
